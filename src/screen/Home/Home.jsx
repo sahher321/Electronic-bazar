@@ -148,44 +148,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* <div className="py-12 bg-[#F6F6F6] xl:bg-amber-400 lg:bg-black  2xl:bg-red-500">
-        <div className="flex gap-6">
-          <div className="w-[25%] 2xl:w-[15%] flex flex-col justify-center gap-4 ml-12">
-            <h2 className="text-2xl font-semibold mb-4 ">
-              Top 10 Selected Products On the Week
-            </h2>
-            <div className="flex gap-2">
-              <button
-                className="group bg-[#FFFFFF] p-2 rounded-full border border-[#00000029] hover:border-[#000000] cursor-pointer"
-                onClick={() => sliderRef.current?.slickPrev()}
-              >
-                <MdKeyboardArrowLeft
-                  size={24}
-                  className="text-[#00000029] group-hover:text-[#000000]"
-                />
-              </button>
-
-              <button
-                className="group bg-[#FFFFFF] p-2 rounded-full border border-[#00000029] hover:border-[#000000] cursor-pointer"
-                onClick={() => sliderRef.current?.slickPrev()}
-              >
-                <MdKeyboardArrowRight
-                  size={24}
-                  className="text-[#00000029] group-hover:text-[#000000]"
-                />
-              </button>
-            </div>
-          </div>
-
-          <Slider {...settingSecond} ref={sliderRef} className="slider">
-            {data.map((item) => (
-              <div key={item.id} className="p-2 ">
-                <ProductWeekCard {...item} />
-              </div>
-            ))}
-          </Slider>
-        </div>
-      </div> */}
+  
       <div className="py-12 ">
         <div className="container">
           <div className="flex justify-between items-center">

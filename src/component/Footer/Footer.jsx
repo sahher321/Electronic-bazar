@@ -112,22 +112,22 @@ export const CopyRight = () => {
     <div className="py-6 border-t border-[#4D4D4D]">
       <div className="container flex items-center justify-between ">
         <p className="text-base leading-[28px] text-[#4D4D4D]">
-          ELECTRONICBAZZAR - © 2020 All Rights Reserved
+          ELECTRONIC BAZZAR - © 2025 All Rights Reserved
         </p>
         <div className="flex items-center  gap-10">
           <p className="text-lg leading-[28px] text-[#4D4D4D]">Payment</p>
           <div className="flex gap-5">
             <p className="text-lg  leading-[28px] text-[#3D7BD8A6] italic">
-              VASI
+              VISA
             </p>
             <p className="text-lg  leading-[28px] text-[#BA8CAC] italic">
               MASTERCARD
             </p>
             <p className="text-lg  leading-[28px] text-[#6CC0E3A6] italic">
-              PEYPOL
+              PAYPAL
             </p>
             <p className="text-lg  leading-[28px] text-[#FF8717A6] italic">
-              BITKOIN
+              BITCOIN
             </p>
           </div>
         </div>

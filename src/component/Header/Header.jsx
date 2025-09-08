@@ -230,7 +230,7 @@ const MobileHeader = () => {
         }`}
       >
         <div className="p-4 border-b flex justify-between items-center">
-          <h3 className="font-semibold text-lg">Categories</h3>
+          <h3 className="font-semibold text-lg">Category</h3>
           <button
             onClick={() => setOpenMenu(false)}
             className="text-xl font-bold"
