@@ -21,8 +21,9 @@ const HotSaleCard = ({ image, name, rating, price, oldPrice, sold, stock }) => {
 
       <div className="h-[50%] p-4 flex flex-col justify-between text-center">
         <div>
-          <p className="text-[#FF7020] font-bold text-base">${price}</p>
           <p className="text-gray-400 line-through text-xs">${oldPrice}</p>
+
+          <p className="text-[#FF7020] font-bold text-base">${price}</p>
         </div>
 
         <h3 className="text-lg font-semibold text-black leading-tight h-[48px] overflow-hidden">
