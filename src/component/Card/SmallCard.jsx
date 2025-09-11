@@ -7,7 +7,7 @@ const SmallCard = ({ image, text, para, className }) => {
       <div
         className={`absolute top-[-25px] left-1/2 transform -translate-x-1/2 ${className}`}
       >
-        <Image width="100%" height="100%" image={image} />
+        <Image width="100%" height="100%" image={image}/>
       </div>
       <h1 className="text-lg font-semibold text-center text-black">{text}</h1>
       <p className=" text-sm font-light text-center text-black">{para}</p>

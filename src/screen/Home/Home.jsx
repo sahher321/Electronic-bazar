@@ -129,7 +129,7 @@ const Home = () => {
       <div className="py-12">
         <SliderImage />
       </div>
-      <div className="py-12">
+      <div className="py-4">
         <div className="container">
           <h1 className="text-3xl font-semibold mb-5">Best Deals</h1>
 
@@ -149,7 +149,7 @@ const Home = () => {
         </div>
       </div>
   
-      <div className="py-12 ">
+      <div className="py-10 ">
         <div className="container">
           <div className="flex justify-between items-center">
             <h1 className="text-xl sm:text-3xl font-semibold ">

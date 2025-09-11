@@ -6,8 +6,8 @@ import Button from "../SmallComponent/Button";
 
 const HotSaleCard = ({ image, name, rating, price, oldPrice, sold, stock }) => {
   return (
-    <div className="!w-full h-[550px] flex flex-col shadow-lg bg-white rounded-3xl my-5 relative overflow-hidden">
-      <div className="w-[60px] h-[60px] bg-[#FF7020] rounded-full absolute top-4 right-4 flex items-center justify-center z-10">
+    <div className="!w-full h-[500px] flex flex-col shadow-lg bg-white rounded-2xl my-5 relative overflow-hidden">
+      <div className="w-[70px] h-[60px] bg-[#FF7020] rounded-full absolute top-4 right-4 flex items-center justify-center z-10">
         <p className="lato font-semibold text-base text-white">SALE</p>
       </div>
       <div className="h-[50%]">
@@ -15,7 +15,7 @@ const HotSaleCard = ({ image, name, rating, price, oldPrice, sold, stock }) => {
           width="100%"
           height="100%"
           image={image}
-          borderRadius="rounded-3xl"
+          borderRadius="rounded-2xl"
         />
       </div>
 
