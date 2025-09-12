@@ -10,8 +10,8 @@ const ProductWeekCard = ({ image, name, price, oldPrice, rating, sold }) => {
       </div>
       <div className="p-4 flex flex-col h-[35%] justify-between">
         <div>
-          <h3 className="text-lg font-semibold text-black">{sold} sold</h3>
-          <p className="text-gray-400 text-xs">${name}</p>
+          <h3 className="text-lg font-semibold text-black">{name} </h3>
+          <p className="text-gray-400 text-xs">${sold} sold</p>
         </div>
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
